@@ -25,7 +25,7 @@ def get_alteration_words(wordlist_fname):
 
 # will write to the file if the check returns true
 def write_domain(args, wp, full_url):
-  print full_url
+  print (full_url)
   #wp.write(full_url)
 
 # function inserts words at every index of the subdomain
